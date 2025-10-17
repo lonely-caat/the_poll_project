@@ -1,0 +1,21 @@
+{
+  "name": "fhe-poll-project",
+  "version": "1.0.0",
+  "description": "A minimal confidential voting dApp using Zama's fhEVM.",
+  "scripts": {
+    "compile": "hardhat compile"
+  },
+  "devDependencies": {
+    "@fhevm/hardhat-plugin": "^0.1.0",
+    "@fhevm/solidity": "^0.8.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "hardhat": "^2.26.3",
+    "typescript": "^5.0.0",
+    "chai": "^4.3.4",
+    "ts-node": "^10.9.1"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=7.0.0"
+  }
+}
